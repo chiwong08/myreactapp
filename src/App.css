@@ -1,3 +1,7 @@
+body {
+  background-color: #232324;
+  color: white;
+}
 .App {
   text-align: center;
 }
@@ -6,7 +10,7 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +39,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.MuiButton-root {
+  background-color: hsl(199, 91%, 54%);
+}
+.MuiButton-root:hover {
+  background-color: hsl(199, 91%, 54%);
+}
+.MuiButton-label {
+  color: #232324;
+}
+
+.MuiTypography-h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 3rem;
+}
+
+.spl-root {
+  max-width: 100%;
+}
+.spl-media {
+  height: 25rem;
+  text-align: center;
+}
+
+.spl-filterTitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.MuiInputBase-input {
+  color: white;
 }
